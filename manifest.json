@@ -6,18 +6,18 @@
   "author": "Chris Gamble",
   "homepage_url": "https://github.com/Fugiman/google-meet-grid-view",
   "icons": {
-    "24": "icon24.png",
-    "36": "icon36.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "24": "extension/icon24.png",
+    "36": "extension/icon36.png",
+    "48": "extension/icon48.png",
+    "128": "extension/icon128.png"
   },
   "browser_action": {
     "default_icon": {
-      "24": "icon24.png",
-      "36": "icon36.png",
-      "48": "icon48.png"
+      "24": "extension/icon24.png",
+      "36": "extension/icon36.png",
+      "48": "extension/icon48.png"
     },
-    "default_popup": "popup.html",
+    "default_popup": "extension/popup.html",
     "default_title": "Google Meet Grid View"
   },
   "content_scripts": [
