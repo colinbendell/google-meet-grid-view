@@ -1,8 +1,23 @@
+## Colin's Fork Release Notes
+This is a fork of Chris Gamble's [Grid View Extension](https://github.com/Fugiman/google-meet-grid-view) that also includes:
+* [PR/250](https://github.com/Fugiman/google-meet-grid-view/pull/250)
+* [PR/280](https://github.com/Fugiman/google-meet-grid-view/pull/280)
+* Enable unpacked loading directly from git
+* fix element regex in the proxy handler
+
+## Overview
 This extension adds a button to the top right bar (next to chat & participant list) to enable grid-view in Google Meets. Grid view gives every participant an equal sized video for use in meetings without a primary speaker (such as working from home silent meetings).
 
 This extension forcibly loads every participant's video when grid view is enabled and may cause performance issues in extremely large meetings.
 
 Includes a variety of options to enhance your meeting: include your own video, highlight who is speaking, and hide participants without video!
+
+## Local Dev-Install (Chrome)
+1. clone repo
+2. Visit chrome://extensions/
+3. Enable `Developer Mode`
+4. Use `Load unpacked`
+5. Select folder from 1. 
 
 ## Official Releases
 
